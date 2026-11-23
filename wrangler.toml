@@ -8,5 +8,5 @@ enabled = true
 [[d1_databases]]
 binding = "DB"
 database_name = "tlgbot-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "d7f7776a-45c1-4634-a51a-519d77ddb913"
 migrations_dir = "migrations"
