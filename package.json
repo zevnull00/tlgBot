@@ -1,0 +1,23 @@
+{
+  "name": "zevnull-reg-ai-telegram-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private Telegram conversational client for REG.RU AI Models on Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply tlgbot-db --local",
+    "db:migrate:remote": "wrangler d1 migrations apply tlgbot-db --remote"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "unpdf": "2.2.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
