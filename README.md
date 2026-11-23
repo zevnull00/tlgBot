@@ -48,7 +48,7 @@
 .\scripts\set-webhook.ps1
 ~~~
 
-Скрипт запросит URL Worker вида https://zevnull-reg-ai-bot.<твой-поддомен>.workers.dev, токен Telegram и значение TELEGRAM_WEBHOOK_SECRET из Worker Secrets. Ввод токена и секрета скрыт. Скрипт зарегистрирует адрес /telegram и покажет getWebhookInfo.
+URL созданного Worker: https://zevnull-reg-ai-bot.volt7459.workers.dev. Скрипт запросит этот URL, токен Telegram и значение TELEGRAM_WEBHOOK_SECRET из Worker Secrets. Ввод токена и секрета скрыт. Скрипт зарегистрирует адрес /telegram и покажет getWebhookInfo.
 
 ## 5. Проверка
 
